@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="pingPong">
+            <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80"
+                alt="Ping Pong">
+
+            <p><span>Pontuação de Ping Pong</span></p>
+        </div>
+
+        <div class="keepingScores">
+            <div class="scores">
+                <h1>0</h1>
+                <h1>to</h1>
+                <h1>0</h1>
+            </div>
+            <p class="subtitle">Use botões abaixo para guardar pontuação</p>
+            <span>Jogando até</span>
+            <select name="totalGames" id="totalGames">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <div class="buttons">
+                <button id="playerOne">+1 Jogador Um</button>
+                <button id="playerTwo">+1 Jogador Dois</button>
+                <button>Reset</button>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
